@@ -1,0 +1,19 @@
+/*
+font-family: 'Roboto', sans-serif;*/
+body {
+    background-color: black;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+p{
+     color: #FFFFFF;
+     font-family: 'Roboto', sans-serif;
+     font-weight: normal;
+}
+.get-started{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(220, 0, 0, 1)
+}
