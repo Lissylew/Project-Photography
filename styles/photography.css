@@ -1,12 +1,15 @@
 /*
 font-family: 'Roboto', sans-serif;*/
+
 body {
-    background-color: black;
-}
+      background-image: url('images/la.JPG');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #0c0c0c;
 }
 p{
      color: #FFFFFF;
