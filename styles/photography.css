@@ -2,13 +2,16 @@
 font-family: 'Roboto', sans-serif;*/
 
 :root {
-       --branding-color:rgb(33, 33, 33);
+       --branding-color: black;
        --secondary-color: #FFFFFF;
        --heading-font-family:'Roboto', sans-serif;
        --default-font-family: 'Montserrat', sans-serif;
-      
+          }
+
+    body{
+        background-color: var(--branding-color);
     }
-    @media (min-width:300px){
+    
     .hero{
 background-image: url("/images/Venice.jpg");
 text-align: center;
@@ -24,13 +27,21 @@ height: 100;
     font-weight: bold;
     text-shadow:  1px 1px 2px black;
 }
+
 h1{
-    font-size: 72px;
+    font-size: 65px;
     line-height: 84px;
+    text-align: center;
 }
+@media (max-width 800px ){
+    h1{
+        font-size: 50px;
+        text-align: center;
     }
+}
+ 
 h2{
-      font-size: 24px;
+      font-size: 32px;
       line-height: 28px;
 }
 p{
@@ -53,3 +64,15 @@ i{
     padding: 18px, 30px, 18px, 30px;
 }
     
+    .door-photo{
+        height: 280px;
+        width: 386px;
+    }
+    .head-photo{
+        height: 280px;
+        width: 386px;
+    }
+    .camera{
+        height: 280px;
+        width: 300px;
+    }
