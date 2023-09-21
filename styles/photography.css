@@ -68,12 +68,17 @@ i{
     border-radius: 50px;
     padding: 18px, 30px, 18px, 30px;
 }
+.photo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .about-section{
     padding: 160px 20px;
 }
 .about-section h2{
     color: #F65282;
-    text-height: 102;
+    
 
 }
 .about-section h1{
@@ -85,5 +90,6 @@ i{
     font-size: 18px;
     font-family: var(--heading-font-family);
 }
+
 
 
