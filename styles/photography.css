@@ -32,20 +32,28 @@ height:auto;
     text-shadow:  1px 1px 2px black;
 }
 
-h1{
+.caption h1{
     font-size: 65px;
     line-height: 84px;
     text-align: center;
 }
 
 @media (max-width: 600px ){
-    h1{
+   .caption h1{
         font-size: 50px;
         text-align: center;
     }
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+    .about-section h1 {
+        text-align: center;
+        font-size: 50px;
+    }
 }
  
-h2{
+h2 {
       font-size: 32px;
       line-height: 28px;
 }
@@ -57,39 +65,58 @@ p{
      font-size: 18px;
      line-height: 30px;
 }
-i{
-    color:var(--default-font-family);
+.about-font i{
+    color:var(--secondary-color);
+    height: 18px;
+    margin-top: 30px;
 }
+.index-insta-font i{
+    height: 18px;
+    color:var(--branding-color);
+}
+
 .btn-branding{
-    font-family: var(--default-font-family);
-    background-color: var(--secondary-color);
-    line-height: 17px;
-    font-size: 14;
-    border-radius: 50px;
-    padding: 18px, 30px, 18px, 30px;
+  font-family: var(--default-font-family);
+  background-color: var(--secondary-color);
+  line-height: 17px;
+  font-size: 14;
+  border-radius: 50px;
+  padding: 18px, 30px, 18px, 30px;
 }
+
 .photo-container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .about-section{
-    padding: 160px 20px;
+  padding: 160px 20px;
 }
 .about-section h2{
-    color: #F65282;
-    
-
+   color: #F65282;
+   line-height: 21px;
+   height: 21px;
+   top: 169px;
+   left: 740px;
+   font-size: 18px;
+   font-family: var(--heading-font-family);
 }
+    
 .about-section h1{
     font-size: 64px;
-    line-height: 75px;
     text-align: justify;
+    font-family: var(--heading-font-family);
 }
 .about-section p{
     font-size: 18px;
     font-family: var(--heading-font-family);
+    line-height: 30px;
 }
-
+.about-section img{
+    border-radius: 5px;
+}
+.about-section .btn-branding{
+    margin-top: 30px;
+}
 
 
