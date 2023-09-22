@@ -51,7 +51,7 @@ height:auto;
         text-align: center;
         font-size: 50px;
     }
-    
+
 }
  
 h2 {
@@ -89,6 +89,8 @@ p{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .about-section{
   padding: 160px 20px;
@@ -121,4 +123,16 @@ p{
 .about-section-content {
     margin: 30px;
 }
+.content-container{
+    margin-top: 50px;
+}
+.photo-container-work img{
+    margin-top: 15%;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
 
