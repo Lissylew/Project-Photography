@@ -25,18 +25,21 @@ height:auto;
     }
 
 
-        h1,h2 {
+        h1,h2,h3 {
     font-family: var(--heading-font-family);
     color: var(--secondary-color);
     font-weight: bold;
     text-shadow:  1px 1px 2px black;
 }
-
+.caption {
+    text-align: center;
+}
 .caption h1{
     font-size: 65px;
     line-height: 84px;
     text-align: center;
 }
+
 
 @media (max-width: 600px ){
    .caption h1{
@@ -58,6 +61,7 @@ h2 {
       font-size: 32px;
       line-height: 28px;
 }
+
 p{
      color: var(--secondary-color);
      font-family: var(--heading-font-family);
@@ -66,6 +70,7 @@ p{
      font-size: 18px;
      line-height: 30px;
 }
+
 .about-font i{
     color:var(--secondary-color);
     height: 18px;
@@ -95,7 +100,7 @@ p{
 .about-section{
   padding: 160px 20px;
 }
-.about-section h2{
+.about-section h2, h3{
    color: #F65282;
    line-height: 21px;
    height: 21px;
