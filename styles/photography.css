@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;*/
 :root {
        --branding-color: black;
        --secondary-color: #FFFFFF;
+       --tertiary-color: #F65282;
        --heading-font-family:'Roboto', sans-serif;
        --default-font-family: 'Montserrat', sans-serif;
           }
@@ -11,7 +12,33 @@ font-family: 'Roboto', sans-serif;*/
     body{
         background-color: var(--branding-color);
     }
-    
+    .container {
+        color: var(--secondary-color);
+    }
+    nav{
+        padding: 20px,0px;
+    }
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+    nav li {
+        display: inline;
+        list-style: none;
+        line-height: 42px;
+        margin: 10px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: var(--secondary-color);
+        transition:all 100ms ease-in-out;
+    }
+
+    nav a:hover,
+    nav li.active a{
+        color: var(--tertiary-color);
+    }
     .hero{
 background-image: url("/images/Venice.jpg");
 text-align: center;
@@ -23,8 +50,6 @@ padding: 160px 20px;
 width: 100%;
 height:auto;
     }
-
-
         h1,h2,h3 {
     font-family: var(--heading-font-family);
     color: var(--secondary-color);
@@ -53,6 +78,10 @@ height:auto;
     .about-section h1 {
         text-align: center;
         font-size: 50px;
+    }
+    img {
+        width: 100%;
+        height:auto;
     }
 
 }
@@ -108,6 +137,9 @@ p{
    left: 740px;
    font-size: 18px;
    font-family: var(--heading-font-family);
+}
+.about-section img{
+    height: 100%;
 }
     
 .about-section h1{
