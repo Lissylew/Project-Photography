@@ -162,7 +162,7 @@ p{
 }
 .content-container{
     margin-top: 50px;
-}
+} 
 .photo-container-work img{
     margin-top: 15%;
     width: 100%;
@@ -170,6 +170,41 @@ p{
   object-fit: cover;
   margin-left: 70px;
   margin-right: 70px;
+}
+.caption a{
+text-decoration: none;
+        color: var(--secondary-color);
+}
+footer{
+margin: 60px 0;
+background: #282323;
+;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 24px;
+    text-align: center;
+}
+footer .email-link:hover{
+    color: var(--tertiary-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--secondary-color);
+    padding:10px;
+    font-size: 18px;
+transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: var(--tertiary-color);
+}
+footer p{
+    margin: 0 20px;
+    font-size: 24px;
+    width: 150px;
 }
 
 
