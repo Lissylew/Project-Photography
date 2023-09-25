@@ -117,6 +117,7 @@ p{
   font-size: 14;
   border-radius: 50px;
   padding: 18px, 30px, 18px, 30px;
+  text-decoration: var(--branding-color);
 }
 
 .photo-container img{
