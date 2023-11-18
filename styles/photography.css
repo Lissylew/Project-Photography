@@ -270,8 +270,10 @@ footer p {
         margin-right: 0px;
     }
     h1{
+       
         font-size: 20px!important;
     }
+    
     .row{
         --bs-gutter-x: 0;
     }
